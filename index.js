@@ -1,3 +1,4 @@
+// detecting button press
 var numberOfDrums = document.querySelectorAll(".drum").length;
 
 for(var i=0; i<numberOfDrums; i++)
@@ -10,6 +11,7 @@ for(var i=0; i<numberOfDrums; i++)
     );
 }
 
+// detecting keyboard press
 document.addEventListener("keydown", function(event)
     {
         makeSound(event.key);
